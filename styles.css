@@ -1,10 +1,28 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+html,body{
+	width:100vw;
+	height:100vh;
+}
 #line{
 	position:absolute;
 	top:50%;
 	left:50%;
-	transform-origin:0% 50%;
+	transform:translate(-50%,-50%)rotate(0deg);
 	background-color:black;
 	width:200px;
 	height:2px;
+	animation:reverse 2s reverse infinite-linear;
+}
+@keyFrames rotate{
+	to{
+		transform:translate(-50%,-50%)rotate(0deg);
+	}	
+	from{
+		transform:translate(-50%,-50%) rotate(180deg);
+	}
 }
