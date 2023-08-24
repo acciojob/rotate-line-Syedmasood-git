@@ -18,7 +18,7 @@ html,body{
 	height:2px;
 	animation:reverse 2s reverse infinite linear;
 }
-@keyFrames rotate{
+@keyframes rotate{
 	to{
 		transform:translate(-50%,-50%)rotate(0deg);
 	}	
