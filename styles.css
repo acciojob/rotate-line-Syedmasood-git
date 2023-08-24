@@ -16,7 +16,7 @@ html,body{
 	background-color:black;
 	width:200px;
 	height:2px;
-	animation:reverse 2s reverse infinite-linear;
+	animation:reverse 2s reverse infinite linear;
 }
 @keyFrames rotate{
 	to{
